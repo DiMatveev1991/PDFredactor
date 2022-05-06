@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "dgSpecHash": "pNcIoODRJWlylvcsrhQyK/gGDhWc7tt6kAFe8p1/Zqy7pAjXldftkv77lB0nsCLymG4n0Pz3f1g930uY8sAabA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matveev-vm-w\\Desktop\\PDFredactor\\MasterPoveritel2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matveev-vm-w\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
+    "C:\\Users\\matveev-vm-w\\.nuget\\packages\\itextsharp\\5.5.13.3\\itextsharp.5.5.13.3.nupkg.sha512",
+    "C:\\Users\\matveev-vm-w\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.24\\microsoft.netcore.app.runtime.win-x64.3.1.24.nupkg.sha512",
+    "C:\\Users\\matveev-vm-w\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.24\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.24.nupkg.sha512",
+    "C:\\Users\\matveev-vm-w\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.24\\microsoft.aspnetcore.app.runtime.win-x64.3.1.24.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"BouncyCastle 1.8.9\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"iTextSharp 5.5.13.3\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
